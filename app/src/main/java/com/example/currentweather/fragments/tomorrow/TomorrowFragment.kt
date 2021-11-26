@@ -22,11 +22,4 @@ class TomorrowFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.tomorrow_fragment, container, false)
     }
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(TomorrowViewModel::class.java)
-        // TODO: Use the ViewModel
-    }
-
 }
